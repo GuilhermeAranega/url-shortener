@@ -2,7 +2,7 @@ const links = ["Login", "Register Now"];
 
 export default function Header() {
     return (
-        <nav className="bg-slate-950 flex justify-between items-center h-16 p-16 my-2">
+        <nav className="bg-gray-950 flex justify-between items-center h-16 p-16 my-2">
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 

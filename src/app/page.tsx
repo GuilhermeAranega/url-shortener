@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="bg-slate-950 flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-gray-950 flex min-h-screen flex-col items-center justify-between p-24">
       
       <div className="flex flex-col items-center justify-center">
         <p className='text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Encurte seus links loooooongos</p>
@@ -9,7 +9,7 @@ export default function Home() {
           <input 
             type="text" 
             placeholder="Cole seu link aqui!" 
-            className="border-2 border-gray-700 rounded-3xl p-5 w-96 bg-slate-900 text-white font-semibold" 
+            className="border-2 border-gray-800 rounded-3xl p-5 w-96 bg-gray-900 text-white font-semibold" 
           />
           <button 
             className="bg-gradient-to-br from-purple-400 to-pink-600 rounded-3xl p-3 w-32 text-white font-semibold ml-2"

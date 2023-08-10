@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className='bg-slate-950'>
+      <body className='bg-gray-950'>
         <header>
           <Header />
         </header>
